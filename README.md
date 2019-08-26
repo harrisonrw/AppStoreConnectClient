@@ -25,7 +25,7 @@ https://developer.apple.com/documentation/appstoreconnectapi/generating_tokens_f
 """
 
 # Your private key ID from App Store Connect
-KEY_ID = 'YOU KEY ID'
+KEY_ID = 'YOUR KEY ID'
 
 # Your private key, downloaded from App Store Connect
 KEY_FILE = 'YOUR KEY FILE'
@@ -47,7 +47,7 @@ Output
 """
 REPORT_OUTPUT_FILE = 'report.csv'
 ```
-4. User your own identifiers and in `settings.py`
+4. Use your own identifiers in `settings.py`
 
 ## Usage
 Run:
