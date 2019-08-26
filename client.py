@@ -1,4 +1,7 @@
 #!/usr/bin/python
+"""
+A client for the Apple AppStoreConnect API 
+"""
 
 from datetime import datetime, timedelta
 import time
@@ -6,8 +9,11 @@ import jwt
 import requests
 import gzip
 from pathlib import Path
-
 from settings import *
+
+__author__ = "Robert Harrison"
+__license__ = "MIT"
+__email__ = "harrisonrw@gmail.com"
 
 TOKEN_REFRESH_INTERVAL = 15 # In minutes
 TOKEN_EXPIRATION = 20 # In minutes
