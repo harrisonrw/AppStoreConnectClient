@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# secrets
+settings.py
+*.p8
+
+# output files
+*.csv
